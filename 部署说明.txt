@@ -1,0 +1,8 @@
+1.安装好JDK（11或以上），Maven和NodeJS
+2.安装Tomcat服务器和PostgreSQL
+3.配置后端的application.yml，设定数据库连接地址等信息
+4.在后端目录下运行mvn package
+5.在前端目录下运行npm run build:prod
+6.将后端构建得到的war包和前端构建得到的dist文件夹放入Tomcat的webapps目录
+7.使用achievelt.sql还原数据库
+8.开始使用
